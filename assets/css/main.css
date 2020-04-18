@@ -2364,6 +2364,29 @@
 					border-radius: 0 0 6px 6px;
 					height: auto;
 				}
+/* Donate button */
+.donate {
+	background: #00684d;
+	background: -webkit-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.4) 100%), -webkit-linear-gradient(left, #00b486 0%, #00684d 50%, #00b486 100%);
+	background: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.4) 100%), linear-gradient(to right, #00b486 0%, #00684d 50%, #00b486 100%);
+	background-position: 0 0;
+	background-size: 200% 100%;
+	border-radius: 4px;
+	color: #fff;
+	padding: 15px 65px 15px 15px;
+	text-shadow: 1px 1px 5px #666;
+	-webkit-transition: all 800ms;
+	transition: all 800ms;
+  }
+  .donate:hover {
+	background-position: -100% 0;
+  }
+  .donate:hover:after {
+	border-left: 1px solid #008260;
+	color: #fff;
+	text-shadow: 0 0 10px #000;
+  }
+  
 
 /* Icon */
 
